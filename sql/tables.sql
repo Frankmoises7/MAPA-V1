@@ -1,0 +1,12 @@
+CREATE TABLE talleres (
+	id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	name VARCHAR(90) NOT NULL,
+	latitude LONG NOT NULL,
+	longitude LONG NOT NULL
+);
+
+INSERT INTO talleres (name, latitude, longitude) VALUES (
+	"Frank", -36.94205093222529, -73.02331544144558
+);
+
+//TODO CREAR DAO PARA SEGUIR
